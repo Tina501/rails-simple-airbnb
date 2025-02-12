@@ -13,3 +13,89 @@
  *= require_tree .
  *= require_self
  */
+ .card {
+  border-radius: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.flats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flat-card {
+  width: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flat-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.flat-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.flat-link:hover {
+  text-decoration: underline;
+}
